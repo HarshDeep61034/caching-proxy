@@ -1,0 +1,5 @@
+-user start process like caching-proxy --port <number> --origin <url> --- done
+-then user must get reponse with an extra header was it cached or not --- done
+-fix content type --done
+-to return reponse we must check in our map is this url available if yes return response with proper headers. --- done
+-if not present in map, save it in map and return as well. ---done

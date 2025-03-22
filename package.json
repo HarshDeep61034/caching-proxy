@@ -1,0 +1,22 @@
+{
+  "name": "caching-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "## Build a caching server that caches responses from other servers.",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node /dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.13.11",
+    "fastify": "^5.2.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
